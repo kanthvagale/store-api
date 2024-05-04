@@ -1,6 +1,7 @@
 openapi: 3.0.0
 info:
   title: store API
+  description: "This api allows you to apply advanced query on products, based on name, company, featured. and you could sort based on price, name etc.. and also can apply numeric filters... github: https://github.com/kanthvagale/store-api"
   contact: {}
   version: "1.0"
 servers:
