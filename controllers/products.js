@@ -25,7 +25,7 @@ const getProduct = async (req, res) => {
   // price and ratings sorting...
   if (numericFilter) {
     const arr = req.query.numericFilter.split(",");
-    console.log(arr);
+    // console.log(arr);
     const numericFil = {
       "<=": "$lte",
       ">=": "$gte",

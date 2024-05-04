@@ -17,7 +17,7 @@ app.use(express.json());
 
 //routes
 app.get("/", (req, res) => {
-  res.send("<h1>Store API</h1><br/><a href='/api-docs'>api documentation</a>");
+  res.send("<h1>Store API</h1><br/><a href='/api-docs'>API documentation</a>");
 });
 app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
